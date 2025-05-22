@@ -14,6 +14,9 @@
     </a>
   </div>
   <h1>Vite + Svelte</h1>
+  <h1 class="text-3xl text-red-500">
+  Hello world!
+</h1>
 
   <div class="card">
     <Counter />
@@ -29,6 +32,7 @@
 </main>
 
 <style>
+  @reference "tailwindcss";
   .logo {
     height: 6em;
     padding: 1.5em;
